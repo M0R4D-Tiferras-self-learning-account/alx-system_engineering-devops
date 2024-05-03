@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Kills the 4-to_infinity_and_beyond PID, and sleep(2) over itterations and echo "I am invincible!!!"
+
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+  trap 'echo "I am invincible!!!"' SIGTERM 
+done
