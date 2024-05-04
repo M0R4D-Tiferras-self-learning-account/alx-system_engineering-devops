@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # displays Best School 10 times and Hi in the 9 itteration
 
-count=1
+count=0
 
-while [ $count -le 10 ]
+while [ $count -lt 10 ]
 do
-	if [ $count != 9 ]; then
+	if [ $count != 8 ]; then
 		echo "Best School"
 	fi
-	if [ $count = 9 ]; then
+	if [ $count = 8 ]; then
 		echo "Hi"
 	fi
 	((count++))
