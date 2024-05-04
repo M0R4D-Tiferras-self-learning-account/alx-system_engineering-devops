@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# displays Best School 10 times.
+# displays Best School 10 times and Hi in the 9 itteration
 
 count=1
 
