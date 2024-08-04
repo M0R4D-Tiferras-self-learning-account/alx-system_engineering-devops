@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+#A bash script to connect via ssh using the public key
+
+ssh -i ~/.ssh/school ubuntu@54.157.167.42
