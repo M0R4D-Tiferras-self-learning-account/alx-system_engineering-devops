@@ -1,5 +1,7 @@
 # Incident Report: Web Stack Debugging Project Outage
 
+![wow](https://miro.medium.com/v2/resize:fit:1226/1*BLOPXfltUpIWJjQm1v4M_Q.jpeg)
+
 **Issue Summary**:
 - **Duration**: 2024-08-10, 14:30 - 17:00 UTC (2 hours 30 minutes)
 - **Impact**: The main web application was completely unavailable to 80% of users. Users experienced 503 Service Unavailable errors when trying to access the platform.
